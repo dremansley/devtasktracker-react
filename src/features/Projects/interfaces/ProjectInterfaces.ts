@@ -17,5 +17,6 @@ export interface Project {
 }
 
 export interface UserProjectListResponse {
-    projects: Project[]
+    projects: Project[];
+    status: string;
 }
